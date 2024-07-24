@@ -348,17 +348,19 @@ namespace TestProject
             player.Inventory.Put(bag);
             //doesn't put gem in bag
             //bag.Inventory.Put(gem);
-            string result1 = command.Execute(player, new string[] { "" });
+            string result1 = command.Execute(player, new string[] { "hi", "at", "gem" });
             string result2 = command.Execute(player, new string[] { "look", "around" });
             string result3 = command.Execute(player, new string[] { "look", "at", "a", "at", "b" });
-            string result4 = command.Execute(player, new string[] { "look", "at", "a", "i", "b", "c" });
+            string result4 = command.Execute(player, new string[] { "look", "at", "a", "in", "b", "c" });
+            string result5 = command.Execute(player, new string[] { "look", "around", "gem" });
             //1st word must be "look"
             Assert.AreEqual("Error in look input", result1);
-            //2nd word must be "a"
-            Assert.AreEqual("What do you look at?", result2);
+            //2nd word must be "at"
+            Assert.AreEqual("I don't know how to look like that", result2);
             //4th word must be "in"
             Assert.AreEqual("What do you want to look in?", result3);
-            //checking array length is a parrent condition
+            //2nd word is "at" and item must be exist
+            Assert.AreEqual("What do you want to look at?", result5);
         }
     }
     [TestFixture]
@@ -408,6 +410,66 @@ namespace TestProject
             location1.Inventory.Put(gem);
 
             Assert.AreEqual(gem, player.Locate("ruby"));
+        }
+    }
+    [TestFixture]
+    //Interation 7
+    public class Iteration7Test
+    {
+        private Player player;
+        private Location location0;
+        private Location location1;
+        private Location location2;
+        private SwinAdven.Path path1;
+        private SwinAdven.Path path2;
+
+        [SetUp]
+        public void SetUp()
+        {
+            player = new Player("Gran", "The brave skyfarer");
+            location0 = new Location(new string[] { "location", "spawnpoint" }, "Starting point", "Your journey begin here");
+            location1 = new Location(new string[] { "location", "dungeon" }, "Small dungeon", "A deep dark fantasy dungeon");
+            location2 = new Location(new string[] { "location", "forest" }, "Dark Forest", "A deep dark forest");
+            path1 = new SwinAdven.Path(new string[] { "north" }, location1);
+            path2 = new SwinAdven.Path(new string[] { "south" }, location2);
+            player.Location = location0;
+            location0.AddPath(Direction.North, path1);
+            location0.AddPath(Direction.South, path2);
+            MoveCommand moveCommand = new MoveCommand();
+        }
+        [Test]
+        public void GetPathFromLocation()
+        {
+            SwinAdven.Path retrievedPath1 = location0.GetPath(Direction.North);
+            SwinAdven.Path retrievedPath2 = location0.GetPath(Direction.South);
+
+            Assert.AreEqual(path1, retrievedPath1);
+            Assert.AreEqual(path2, retrievedPath2);
+        }
+        [Test]
+        public void MoveToLocation()
+        {
+            MoveCommand moveCommand = new MoveCommand();
+            string result = moveCommand.Execute(player, new string[] { "move", "north" });
+            Assert.AreEqual("You head north.\nYou have arrived in a Small dungeon.", result);
+            Assert.AreEqual(location1, player.Location);
+        }
+        [Test]
+        public void TestLeaveToPreviousLocation()
+        {
+            MoveCommand moveCommand = new MoveCommand();
+            moveCommand.Execute(player, new string[] { "move", "north" });
+            string result = moveCommand.Execute(player, new string[] { "leave" });
+            Assert.AreEqual("You have returned to Starting point.", result);
+            Assert.AreEqual(location0, player.Location);
+        }
+        [Test]
+        public void MoveInvalidDirection()
+        {
+            MoveCommand moveCommand = new MoveCommand();
+            string result = moveCommand.Execute(player, new string[] { "move", "t" });
+            Assert.AreEqual("Invalid path identifier", result);
+            Assert.AreEqual(location0, player.Location);
         }
     }
 }

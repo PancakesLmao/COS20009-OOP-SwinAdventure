@@ -12,11 +12,14 @@ namespace SwinAdven
         private string _desc;
         private string _name;
         private Location _location;
+        private Location _oldLocation;
         public Player(string name, string desc) : base(new string[] { "me", "inventory" }, name, desc)
         {
             _desc = desc;
             _name = name;
             _inventory = new Inventory();
+            _location = null;
+            _oldLocation = null;
         }
 
         public GameObject Locate(string id)
@@ -45,12 +48,24 @@ namespace SwinAdven
         {
             get { return _inventory; }
         }
-
+        public void MoveTo(Location newLocation)
+        {
+            _oldLocation = _location;
+            _location = newLocation;
+        }
         //Player's location
         public Location Location 
         { 
             get { return _location; } 
-            set { _location = value; }
+            set 
+            {
+                _oldLocation = _location;
+                _location = value; 
+            }
+        }
+        public Location PreviousLocation()
+        {
+            return _oldLocation;
         }
     }
 }

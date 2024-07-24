@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4016B4F5-2FF6-41A8-9D85-D0C281FF7C10}|TestProject1\\TestProject1.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4016B4F5-2FF6-41A8-9D85-D0C281FF7C10}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\lookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\lookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|c:\\users\\admin\\onedrive - swinburne university\\desktop\\swinner\\swin- homework\\cos20009-object oriented programming\\swinadven\\swinadven\\ihaveinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63662DA0-2F4C-4A46-922D-C881BE2B6CD9}|SwinAdven\\SwinAdven.csproj|solutionrelative:swinadven\\ihaveinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,37 +54,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\TestProject1\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\TestProject1\\UnitTest1.cs",
               "RelativeToolTip": "TestProject1\\UnitTest1.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAkwL8AAAARAAAA",
+              "ViewState": "AQIAALQBAAAAAAAAAAAiwL0BAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T17:05:10.446Z"
+              "WhenOpened": "2024-07-24T15:50:45.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IHaveInventory.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\IHaveInventory.cs",
+              "RelativeDocumentMoniker": "SwinAdven\\IHaveInventory.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\IHaveInventory.cs",
+              "RelativeToolTip": "SwinAdven\\IHaveInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T18:29:10.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\LookCommand.cs",
+              "RelativeDocumentMoniker": "SwinAdven\\LookCommand.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\LookCommand.cs",
+              "RelativeToolTip": "SwinAdven\\LookCommand.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T17:43:35.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Direction.cs",
+              "RelativeDocumentMoniker": "SwinAdven\\Direction.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Direction.cs",
+              "RelativeToolTip": "SwinAdven\\Direction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:14:21.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Player.cs",
+              "RelativeDocumentMoniker": "SwinAdven\\Player.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Player.cs",
+              "RelativeToolTip": "SwinAdven\\Player.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwDoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T04:23:02.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MoveCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\MoveCommand.cs",
+              "RelativeDocumentMoniker": "SwinAdven\\MoveCommand.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\MoveCommand.cs",
+              "RelativeToolTip": "SwinAdven\\MoveCommand.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwCwAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:14:32.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Path.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Path.cs",
+              "RelativeDocumentMoniker": "SwinAdven\\Path.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Path.cs",
+              "RelativeToolTip": "SwinAdven\\Path.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:02:12.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Program.cs",
               "RelativeDocumentMoniker": "SwinAdven\\Program.cs",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Program.cs",
               "RelativeToolTip": "SwinAdven\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA4AAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T08:20:16.401Z"
+              "WhenOpened": "2024-06-28T08:20:16.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Location.cs",
               "RelativeDocumentMoniker": "SwinAdven\\Location.cs",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Swinburne University\\Desktop\\Swinner\\SWIN- HOMEWORK\\COS20009-Object Oriented Programming\\SwinAdven\\SwinAdven\\Location.cs",
               "RelativeToolTip": "SwinAdven\\Location.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAYAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T17:48:24.066Z",
               "EditorCaption": ""
