@@ -13,19 +13,6 @@ namespace SwinAdven
             this.isLocked = isLocked;
         }
 
-        public bool Move(Player p)
-        {
-            if (isLocked)
-            {
-                Console.WriteLine("The path is locked.");
-                return false;
-            }
-
-            p.Location = _destination;
-            Console.WriteLine($"You have moved to {_destination.Name}");
-            return true;
-        }
-
         public void SetDestination(Location destination)
         {
             _destination = destination;
