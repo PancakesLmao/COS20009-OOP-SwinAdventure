@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using NUnit.Framework; //Don't forget this.
 using SwinAdven;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -470,6 +471,65 @@ namespace TestProject
             string result = moveCommand.Execute(player, new string[] { "move", "t" });
             Assert.AreEqual("Invalid path identifier", result);
             Assert.AreEqual(location0, player.Location);
+        }
+    }
+    [TestFixture]
+    //Interation 8
+    public class Iteration8Test
+    {
+        private Player player;
+        private Location location0;
+        private Location location1;
+        private SwinAdven.Path path1;
+        private CommandProcessor commandProcessor;
+
+        [SetUp]
+        public void SetUp()
+        {
+            player = new Player("Gran", "The brave skyfarer");
+            Item potion = new Item(new string[] { "potion", "magic potion" }, "health potion", "recover player's health by 15%");
+            player.Inventory.Put(potion);
+            //
+            location0 = new Location(new string[] { "location", "spawnpoint" }, "Starting point", "Your journey begins here");
+            location1 = new Location(new string[] { "location", "dungeon" }, "Small dungeon", "A deep dark dungeon");
+            path1 = new SwinAdven.Path(new string[] { "north" }, location1);
+            player.Location = location0;
+            location0.AddPath(Direction.North, path1);
+            //
+            commandProcessor = new CommandProcessor();
+            commandProcessor.AddCommand(new MoveCommand());
+            commandProcessor.AddCommand(new LookCommand());
+            commandProcessor.AddCommand(new QuitCommand());
+        }
+        [Test]
+        public void TestQuitCommand()
+        {
+            var text = new string[] { "quit" };
+            var result = commandProcessor.Process(player, text);
+            Assert.AreEqual("Bye.", result);
+        }
+        [Test]
+        public void TestMoveCommand()
+        {
+            var text1 = new string[] { "move", "north" };
+            var text2 = new string[] { "leave" };
+            string result1 = commandProcessor.Process(player, text1);
+            string result2 = commandProcessor.Process(player, text2);
+
+            Assert.AreEqual("You head north.\nYou have arrived in a Small dungeon.", result1);
+            Assert.AreEqual("You have returned to Starting point.", result2);
+            //player must return to the starting point
+            Assert.AreEqual(location0, player.Location);
+        }
+        [Test]
+        public void TestLookCommand()
+        {
+            var text1 = new string[] { "look" };
+            var text2 = new string[] { "look", "at", "inventory" };
+            string result1 = commandProcessor.Process(player, text1);
+            string result2 = commandProcessor.Process(player, text2);
+            Assert.AreEqual("Your journey begins here", result1);
+            Assert.AreEqual("Gran, The brave skyfarer is carrying:\n    health potion - potion\n", result2);
         }
     }
 }

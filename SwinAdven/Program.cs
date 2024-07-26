@@ -28,8 +28,6 @@
             spawnpoint.Inventory.Put(tree);
 
             player.Location = spawnpoint;
-            LookCommand lookCommand = new LookCommand();
-            MoveCommand moveCommand = new MoveCommand();
             //add another item in player's bag
             bag.Inventory.Put(potion);
            
@@ -41,26 +39,28 @@
             Location village = new Location(new string[] { "structure" }, "Small Village", "A small village.");
             Path pathToVillage = new Path(new string[] { "south" }, village);
             spawnpoint.AddPath(Direction.South, pathToVillage);
+
+            //add command processor
+            CommandProcessor commandProcessor = new CommandProcessor();
+            commandProcessor.AddCommand(new MoveCommand());
+            commandProcessor.AddCommand(new LookCommand());
+            commandProcessor.AddCommand(new QuitCommand());
             //Loop
             while (true)
             {
                 Console.WriteLine("Enter your command:");
                 string command = Console.ReadLine();
-                //exit game condition
-                if (command.ToLower() == "quit")
-                    break;
                 string[] cmdWords = command.Split(' ');
-                //execute command
-                string output;
-                if (cmdWords[0].ToLower() == "look")
+                string output = commandProcessor.Process(player, cmdWords);
+                if (output == "Bye.")
                 {
-                    output = lookCommand.Execute(player, cmdWords);
+                    Console.WriteLine(output);
+                    break;
                 }
                 else
                 {
-                    output = moveCommand.Execute(player, cmdWords);
+                    Console.WriteLine(output);
                 }
-                Console.WriteLine(output);
             }
         }
     }
